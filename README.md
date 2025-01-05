@@ -16,7 +16,7 @@ You can explore the SPRI-NSF-TUD Campaign dataset at https://www.radarfilm.studi
 
 If you want to download and analyze this dataset (downloading A- and Z-scopes), please request an invite link to Angelo T. (dtarzona@gatech.edu) or Brian A. (bamaro@stanford.edu).
 
-LAT/LON/CBD for different flight numbers are located in the GitHub Repository of Radar Film Studio: https://github.com/radioglaciology/radarfilmstudio 
+LAT/LON/CBD for different flight numbers are located in the GitHub Repository of Radar Film Studio: https://github.com/radioglaciology/radarfilmstudio/tree/2beee065a5b9bbdda5369d91507a6dca5a48cd5f/antarctica_original_positioning
   - If you need different thematic and flight maps please talk to Angelo T.
 
 ## Data Processing
