@@ -21,4 +21,18 @@ LAT/LON/CBD for different flight numbers are located in the GitHub Repository of
 
 ## Data Processing
 
-T
+To know more about the 5 main scientific papers that discuss positioning, ways to process, and data collection of the SPRI-NSF-TUD Campaign, go to 'Papers' section.
+
+Each 'Scope_Processing' folder has an example A- or Z-scope.
+  - For A_Scope_Processing:
+    -   This folder contains a MATLab code for semi-automatically picking the Main Bang, Surface Echo, and Bed Echo of each A-scope in a film.
+  - For A_Scope_Calibration:
+    -   This folder contains a MATLab code for calibrating the semi-automatically picks from pixels to dB relative to the scale provided by Neal 1977, Rose 1978, and Millar 1981
+  - For Z_Scope_Processing_SemiAutomatic:
+    -   This folder contains a Python code cowritten with Abdullah A. to semi-automatically pick Z-scopes' surface and bed feature in order to get the ice thickness.
+  - For Z_Scope_Calibration:
+    -   This folder contains series of MATLab code for calibratiing the semi-automatic picks from pixels to meters relative to the 'calibration pips'. See Schroeder et al. 2019
+
+## Future Works
+- Need to create a folder for 'Z_Scope_Processing_Automatic' to share with potential users as to how use picked data via semi-automatic picker as boundaries for automatic picking.
+  - Need to fix film cropping between automatic and semi-automatic picker. 
