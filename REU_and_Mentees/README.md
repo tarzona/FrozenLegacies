@@ -4,13 +4,20 @@ This folder is for REU students and mentees working with Angelo T. regarding the
 
 ## Current projects we have right now 
 
-__Scientific Projects__
-  1. Semi-Automatically picking unpicked gaps between flight tracks of Z-scopes in Ross Ice Shelf (_Need Windows Machine for this project_)
-  2. Semi-Automatically picking unpicked and calibrating gaps between flight tracks of A-scopes in Ross Ice Shelf (_Windows and Apple Machine works for this project_)
+## Scientific Projects
 
-__Technical Projects__
-  3. Finding lost A-scopes and Z-scopes within Ross Ice Shelf from radarfilm.studio and verify that these lost scopes have the appropriate CBD. This will need knowledge of Bash Coding. (_Will need permission from Stanford Radioglaciology group_)
-  4. Creating a catalog through Microsoft Excel of all scientific journals published between 1960s to early 2000s regarding the SPRI-NSF-TUD dataset. 
+1. Semi-automatically picking unpicked gaps between flight tracks of Z-scopes in Ross Ice Shelf  
+   _Need a Windows machine for this project_
+
+2. Semi-automatically picking and calibrating gaps between flight tracks of A-scopes in Ross Ice Shelf  
+   _Windows and Apple machines work for this project_
+
+## Technical Projects
+
+3. Finding lost A-scopes and Z-scopes within Ross Ice Shelf from radarfilm.studio and verifying that these lost scopes have the appropriate CBD  
+   _This will require knowledge of Bash coding and permission from the Stanford Radioglaciology group_
+
+4. Creating a catalog through Microsoft Excel of all scientific journals published between the 1960s and early 2000s regarding the SPRI-NSF-TUD dataset
 
 ## Tentative Schedule for REU Students
 
