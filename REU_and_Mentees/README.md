@@ -4,17 +4,27 @@ This folder is for REU students and mentees working with Angelo T. regarding the
 
 ## Current projects we have right now 
 
+__Scientific Projects__
+  1. Semi-Automatically picking unpicked gaps between flight tracks of Z-scopes in Ross Ice Shelf (_Need Windows Machine for this project_)
+  2. Semi-Automatically picking unpicked and calibrating gaps between flight tracks of A-scopes in Ross Ice Shelf (_Windows and Apple Machine works for this project_)
+
+__Technical Projects__
+  3. Finding lost A-scopes and Z-scopes within Ross Ice Shelf from radarfilm.studio and verify that these lost scopes have the appropriate CBD. This will need knowledge of Bash Coding. (_Will need permission from Stanford Radioglaciology group_)
+  4. Creating a catalog through Microsoft Excel of all scientific journals published between 1960s to early 2000s regarding the SPRI-NSF-TUD dataset. 
+
+## Tentative Schedule for REU Students
+
 | Week #  | What to do                  |
 |---------|-----------------------------|
 | Week 1  | Learn Antarctic Mapping Tools, BEDMAP 2, and Bedmachine in MATLab, Plotting in Python, and creating first map in ArcGIS and QGIS|
-| Week 2  | Introduction on 'How to Read a Scientific Journal'. Read the 5 main journals located in __Papers__ folder in _FrozenLegacies_ repository to know get familiar with SPRI-NSF-TUD Campaign|
-| Week 3  | Brainstorm project for REU and develop reachable goals for the end of Summer presentation|
-| Week 4  | Work on project and read at least 2 scientific journal from Box Drive|
-| Week 5  | Work on project and create first deliverable from goals created in Week 3|
-| Week 6  | Work on project and present first deliverable to Dr. Chu and Angelo|
-| Week 7  | Work on second deliverable and work on revision of first deliverable|
-| Week 8  | Work on third deliverable and present first and second deliverables to Dr. Chu and Angelo|
-| Week 9  | Work on revision of second deliverable and present third deliverable to Dr. Chu and Angelo|
+| Week 2  | Introduction on _How to Read a Scientific Journal_. Read the 5 main journals located in __Papers__ folder in _FrozenLegacies_ repository to know get familiar with SPRI-NSF-TUD Campaign|
+| Week 3  | Brainstorm project for REU and develop reachable goals for the end of Summer presentation (Read at least 1 scientific journal from __Papers__ folder)|
+| Week 4  | Work on project and read at least 2 scientific journal from Box Drive (Read at least 1 scientific journal from __Papers__ folder)|
+| Week 5  | Work on project and create first deliverable from goals created in Week 3 (Read at least 1 scientific journal from __Papers__ folder)|
+| Week 6  | Work on project and present first deliverable to Dr. Chu and Angelo (Read at least 1 scientific journal from __Papers__ folder)|
+| Week 7  | Work on second deliverable and work on revision of first deliverable (Read at least 1 scientific journal from __Papers__ folder)|
+| Week 8  | Work on third deliverable and present first and second deliverables to Dr. Chu and Angelo (Read at least 1 scientific journal from __Papers__ folder)|
+| Week 9  | Work on revision of second deliverable and present third deliverable to Dr. Chu and Angelo (Read at least 1 scientific journal from __Papers__ folder)|
 | Week 10 | Focus on writing report and end of Summer presentation|
 | Week 11 | Practice end of Summer presentation with ICE-T and Brainfreeze|
 | Week 12 | Wrap up project and put every code and dataset in Box Drive|
