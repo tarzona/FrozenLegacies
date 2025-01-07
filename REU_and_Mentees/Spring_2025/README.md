@@ -1,4 +1,4 @@
-## For Spring 2025 Students
+## For Spring 2025 Student(s)
 
 Below is the tentative schedule for Spring 2025 and what to do each week. This semester, it is mostly picking and less exploring. We also need to catalog missing A-scopes and Z-scopes within the flight tracks that flew around Ross Ice Shelf. 
 
