@@ -21,7 +21,7 @@ LAT/LON/CBD for different flight numbers are located in the GitHub Repository of
 
 ## Data Processing
 
-To know more about the 5 main scientific papers that discuss positioning, ways to process, and data collection of the SPRI-NSF-TUD Campaign, go to 'Papers' section.
+To know more about the 5 main scientific papers that discuss positioning, ways to process, and data collection of the SPRI-NSF-TUD Campaign, go to __Papers__ section.
 
 Each 'Scope_Processing' folder has an example A- or Z-scope.
   - For A_Scope_Processing:
@@ -31,8 +31,8 @@ Each 'Scope_Processing' folder has an example A- or Z-scope.
   - For Z_Scope_Processing_SemiAutomatic:
     -   This folder contains a Python code cowritten with Abdullah A. to semi-automatically pick Z-scopes' surface and bed feature in order to get the ice thickness.
   - For Z_Scope_Calibration:
-    -   This folder contains series of MATLab code for calibratiing the semi-automatic picks from pixels to meters relative to the 'calibration pips'. See Schroeder et al. 2019
+    -   This folder contains series of MATLab code for calibratiing the semi-automatic picks from pixels to meters relative to the _calibration pips_. See Schroeder et al. 2019
 
 ## Future Works
-- Need to create a folder for 'Z_Scope_Processing_Automatic' to share with potential users as to how use picked data via semi-automatic picker as boundaries for automatic picking.
+- Need to create a folder for _Z_Scope_Processing_Automatic_ to share with potential users as to how use picked data via semi-automatic picker as boundaries for automatic picking.
   - Need to fix film cropping between automatic and semi-automatic picker. 
