@@ -9,4 +9,4 @@
 ## For REU Students and Mentees
 __There are more papers that needed to be cataloged. Please talk to Angelo T. for more information about this__
 
-There is a word document uploaded in this folder [Blank Cover Sheet](BlankCoverSheet.docx) which you will __use__ to guide your reading scientific journals. 
+There is a word document uploaded in this folder [Blank Cover Sheet](BlankCoverSheet.docx) which you will __use__ as a guide while reading scientific journals. 
