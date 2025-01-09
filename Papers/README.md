@@ -1,4 +1,4 @@
-## Here are 5 papers to get acquainted with the SPRI-NSF-TUD Campaign
+## Here are 5 scientific journals to get acquainted with the SPRI-NSF-TUD Campaign
 
 1) Schroeder et al. 2019 (https://www.pnas.org/doi/10.1073/pnas.1821646116) - this paper gives a great introduction about the archival SPRI-NSF-TUD Campaign and modern airborne radio-echo soundings in Antarctica like the 2016 MCoRDS dataset.
 2) Millar et al. 1981 (https://www.nature.com/articles/292441a0) - A quick overview of Amplitude Scopes, "A-Scopes", which measures the returned power in dB from the SPRI-NSF-TUD dataset. 
@@ -9,4 +9,4 @@
 ## For REU Students and Mentees
 __There are more papers that needed to be cataloged. Please talk to Angelo T. for more information about this__
 
-There is a word document uploaded in this folder [abc](BlankCoverSheet.docx)
+There is a word document uploaded in this folder [Blank Cover Sheet](BlankCoverSheet.docx) which you will __use__ to guide your reading scientific journals. 
