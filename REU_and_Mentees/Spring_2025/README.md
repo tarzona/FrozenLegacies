@@ -4,7 +4,7 @@ Below is the tentative schedule for Spring 2025 and what to do each week. This s
 
 | Week #  | What to do                  |
 |---------|-----------------------------|
-| Week 1  | Talk about experience from AGU, what comments do we need to work on regarding A-scope calibration, and try to get reimbursement for student|
+| Week 1  | Talk about experience from AGU, what comments do we need to work on regarding A-scope calibration, and try to get reimbursement for student. Help Angelo with writing ReadME file for A-scope Processing and Z-scope Processing.|
 | Week 2  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
 | Week 3  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
 | Week 4  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
