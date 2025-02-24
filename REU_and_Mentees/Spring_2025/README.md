@@ -4,12 +4,12 @@ Below is the tentative schedule for Spring 2025 and what to do each week. This s
 
 | Week #  | What to do                  |
 |---------|-----------------------------|
-| Week 1  | Talk about experience from AGU, what comments do we need to work on regarding A-scope calibration, and try to get reimbursement for student. Help Angelo with writing ReadME file for A-scope Processing and Z-scope Processing.|
-| Week 2  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
-| Week 3  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
-| Week 4  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
-| Week 5  | Read through different Ph.D. Thesis of past Ph.D. students who handled SPRI-NSF-TUD dataset specially A-scopes|
-| Week 6  | Read through different Ph.D. Thesis of past Ph.D. students who handled SPRI-NSF-TUD dataset specially A-scopes|
+| Week 1 (01/10/25)  | Talk about experience from AGU, what comments do we need to work on regarding A-scope calibration, and try to get reimbursement for student. Help Angelo with writing ReadME file for A-scope Processing and Z-scope Processing.|
+| Week 2 (01/17/25)  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
+| Week 3 (01/24/25)  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
+| Week 4 (Skipped 01/31/25)  | Build a catalog through Microsoft Excel. Keep picking A-scope dataset (document which CBD and flight number does not have any signal or a blank A-scope)|
+| Week 5 (02/07/25)  | Rebuilding ESM Records based on radarfilm.studio |
+| Week 6 (02/14/25)  | Rebuilding ESM Records based on radarfilm.studio|
 | Week 7  | Read through different Ph.D. Thesis of past Ph.D. students who handled SPRI-NSF-TUD dataset specially A-scopes|
 | Week 8  | Help Angelo catalog missing Z-scopes and A-scopes over at Ross Ice Shelf|
 | Week 9  | Help Angelo catalog missing Z-scopes and A-scopes over at Ross Ice Shelf|
