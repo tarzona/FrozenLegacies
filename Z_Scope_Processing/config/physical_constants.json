@@ -1,0 +1,7 @@
+{
+    "calibration_pip_interval_microseconds": 2.0,
+    "speed_of_light_vacuum_mps": 300000000.0,
+    "ice_relative_permittivity_real": 3.17,
+    "firn_correction_meters": 10.0
+  }
+  
