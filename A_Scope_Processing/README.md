@@ -1,28 +1,17 @@
-## Quick Start
+# A-Scope Processor
 
-This package provides tools for processing A-scope radar data from TIFF images. It detects signal traces, reference lines, transmitter pulses, surface echoes, and bed echoes.
+**Automated detection and analysis of A-scope radar data from TIFF images.**
 
-# Installation
+This package provides tools for processing A-scope radar data, including detection of signal traces, reference lines, transmitter pulses, surface echoes, and bed echoes. Ideal for researchers and engineers working with radar data from the Ross Ice Shelf and similar environments.
 
-Clone this repository: git clone cd ascope
+---
 
-Install the required dependencies: pip install -r docs/requirements.txt
+## 🚀 Quick Start
 
-# Usage
+Get started with the A-scope processor in just a few steps:
 
-Command Line Interface
+### 1. Clone the Repository
 
-Process a specific image python runme/main.py –input path/to/your/image.tiff
-Process with a custom configuration python runme/main.py –input path/to/your/image.tiff –config path/to/config.json
-Process with a custom output directory python runme/main.py –input path/to/your/image.tiff –output-dir path/to/output
-Enable debug mode python runme/main.py –input path/to/your/image.tiff –debug
+`git clone https://github.com/tarzona/FrozenLegacies.git`
+`cd FrozenLegacies/A_Scope_Processing`
 
-
-# Configuration
-
-The default configuration is stored in config/default_config.json. Physical parameters are stored in config/physical_params.json.
-You can override these by providing a custom configuration file with the --config option.
-
-# Output
-
-Processed results are saved to the output directory specified in the configuration (default: ascope_processed).
