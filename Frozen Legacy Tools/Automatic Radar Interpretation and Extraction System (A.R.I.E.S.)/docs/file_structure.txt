@@ -1,0 +1,21 @@
+zscope/
+|── __init__.py
+├── main.py    # Main executable script
+├── zscope_processor.py   # ZScopeProcessor class
+├── config/
+│   ├── default_config.json
+│   └── physical_constants.json
+├── functions/
+|   |── __init__.py
+│   ├── image_utils.py
+│   ├── artifact_detection.py
+│   ├── feature_detection.py
+│   ├── calibration_utils.py
+│   ├── visualization_utils.py
+│   ├── interactive_tools.py
+│   └── general_utils.py
+├── data/                        
+├── output/                      
+└── docs/
+    ├── README.md
+    └── requirements.txt

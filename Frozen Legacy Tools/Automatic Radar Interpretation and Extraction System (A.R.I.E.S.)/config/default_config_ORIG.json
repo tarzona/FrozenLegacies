@@ -1,0 +1,199 @@
+{
+    "preprocessing_params": {
+      "percentile_low": 2,
+      "percentile_high": 98
+    },
+    "artifact_detection_params": {
+      "top_exclude_ratio": 0.05,
+      "bottom_exclude_ratio": 0.05,
+      "gradient_smooth_kernel": 15,
+      "gradient_threshold_factor": 1.5,
+      "safety_margin": 20,
+      "visualize_film_artifact_boundaries": false
+    },
+    "transmitter_pulse_params": {
+      "search_height_ratio": 0.35,
+      "smoothing_kernel_size": 25,
+      "peak_prominence": 0.7,
+      "peak_distance": 10,
+      "position_weight": 0.7,
+      "prominence_weight": 0.3,
+      "fallback_depth_ratio": 0.3,
+      "visualize_tx_pulse_detection": true
+    },
+    "click_selector_params": {
+      "figure_size_inches": [24, 6],
+      "title": "Click on the calibration pip location"
+    },
+    "peak_refinement_params": {
+      "window_size": 5
+    },
+    "zscope_boundary_detection_params": {
+      "gradient_smooth_kernel": 31,
+      "gradient_threshold_factor": 2.0,
+      "search_middle_third_start_ratio": 0.333,
+      "search_middle_third_end_ratio": 0.666,
+      "safety_offset_from_edge": 50
+    },
+    "pip_detection_params": {
+      "approach_1": {
+        "max_distance_from_click_px": 1000,
+        "strip_width_px": 2000,
+        "clahe_clip_limit": 3.0,
+        "clahe_tile_grid_size": [8, 8],
+        "vertical_kernel_size": [1, 25],
+        "horizontal_kernel_size": [15, 1],
+        "combined_features_vertical_weight": 0.3,
+        "combined_features_horizontal_weight": 0.7,
+        "binary_threshold": 10,
+        "profile_roi_margin_px": 50,
+        "expected_tick_spacing_approx_px": 30,
+        "tick_spacing_tolerance_factor": 0.8,
+        "tick_prominence": 30,
+        "tick_vertical_offset_px": 1.5,
+        "z_boundary_safety_margin_px": 50,
+        "min_valid_ticks": 3,
+        "spacing_std_dev_factor_threshold": 0.4,
+        "match_score_base": 0.9
+      },
+      "approach_2_aggressive": {
+        "clahe_clip_limit": 4.0,
+        "clahe_tile_grid_size": [4, 4],
+        "vertical_kernel_size": [1, 30],
+        "canny_edge_low_threshold": 20,
+        "canny_edge_high_threshold": 70,
+        "hough_lines_threshold": 20,
+        "hough_lines_min_length_ratio_of_strip": 0.1666, "hough_lines_max_gap_px": 30,
+        "hough_lines_max_x_diff_for_vertical": 15,
+        "profile_roi_margin_px": 50,
+        "tick_peak_distance_px": 5,
+        "z_boundary_safety_margin_px": 50,
+        "min_valid_ticks": 3,
+        "spacing_std_dev_factor_threshold": 0.4,
+        "match_score_base": 0.6
+      },
+      "ranking_proximity_weight_contribution": 0.8,
+      "visualize_pip_detection": false,
+      "visualization_params": {
+          "context_panel_width_px": 10000,
+          "results_panel_y_padding_px": 50,
+          "results_panel_x_margin_px": 200,
+          "zoom_panel_height_px": 500,
+          "zoom_panel_clahe_clip_limit": 2.0,
+          "zoom_panel_clahe_tile_grid_size": [8,8]
+      }
+    },
+    "time_calibration_visualization_params": {
+      "figure_size_inches": [24, 10],
+      "contrast_enhancement": {
+        "use_clahe": true,
+        "clahe_clip_limit": 2.0,
+        "clahe_tile_grid_size": [8, 8]
+    },
+    "grid_lines": {
+        "major_alpha": 0.2,
+        "minor_alpha": 0.1,
+        "major_linewidth": 0.6,
+        "minor_linewidth": 0.4
+    },
+    "scale_bar": {
+        "enabled": false,
+        "length_km": 5,
+        "km_per_pixel_factor": 0.169
+    },
+      "major_grid_time_interval_us": 10,
+      "minor_grid_time_interval_us": 2,
+      "label_x_offset_px": 50,
+      "label_font_size": 9,
+      "aspect_ratio_divisor": 5.0,
+      "legend_location": "upper right",
+      "save_dpi": 300
+    },
+    "ice_thickness_scale_params": {
+      "enabled": true
+    },
+    "manual_annotation_params": {
+      "ask_user_to_annotate": true,
+      "default_features": {
+          "e": {"pixel_offset_from_tx": 100, "name": "End of suppression", "color": "cyan"},
+          "i": {"pixel_offset_from_tx": 800, "name": "Ice surface echo", "color": "green"},
+          "b": {"pixel_offset_from_bottom": -100, "name": "Bed echo", "color": "magenta"}
+      },
+      "save_annotated_figure": true,
+      "annotated_figure_save_dpi": 300
+    },
+    "echo_tracing_params": {
+  "surface_detection": {
+    "enhancement_clahe_clip": 2.8,
+    "enhancement_clahe_tile": [5, 5],
+    "enhancement_blur_ksize": [3, 3],
+    "search_start_offset_px": 355,
+    "search_depth_px": 150,
+    "peak_prominence": 30,
+    "echo_polarity": "dark",
+    "edge_handling": {
+    "left_width_fraction": 0.02,
+    "right_width_fraction": 0.04,
+    "left_strength": 0.7,
+    "right_strength": 0.9,
+    "use_reflect_padding": true,
+    "right_edge_window_fraction": 0.03
+    },
+
+    "adaptive_min_window": 41,
+    "adaptive_max_window": 601,
+    "adaptive_polyorder": 3,
+    "adaptive_interp_kind": "linear",
+    "use_multi_scale": true,
+    "prominence_min": 15,
+    "prominence_max": 35,
+    "scales": 3,
+    "max_gradient": 0.4,
+    "max_deviation": 5,
+    "plot_color": "#117733",
+    "plot_linestyle": "--"
+  },
+  "bed_detection": {
+    "enhancement_clahe_clip": 5.0,
+    "enhancement_clahe_tile": [3, 3],
+    "enhancement_blur_ksize": [5, 5],
+    "search_start_offset_from_surface_px": 495,
+    "search_end_offset_from_z_boundary_px": 22,
+    "peak_prominence": 95,
+    "edge_handling": {
+    "left_width_fraction": 0.02,
+    "right_width_fraction": 0.04,
+    "left_strength": 0.7,
+    "right_strength": 0.9,
+    "use_reflect_padding": true,
+    "right_edge_window_fraction": 0.03
+    },
+    "echo_polarity": "dark",
+    "search_direction": "top_down",
+    "adaptive_min_window": 121,
+    "adaptive_max_window": 1201,
+    "adaptive_polyorder": 3,
+    "adaptive_interp_kind": "linear",
+    "use_multi_scale": true,
+    "prominence_min": 25,
+    "prominence_max": 85,
+    "scales": 3,
+    "max_gradient": 0.3,
+    "max_deviation": 5,
+    "plot_color": "#CC6677",
+    "plot_linestyle": "--"
+  },
+    "output_params": {
+      "debug_output_directory": "debug_output",
+      "save_intermediate_plots": true
+    }
+  }, 
+    "data_export_params": {
+    "export_enabled": true,
+    "output_filename_suffix": "_ice_measurements.csv",
+    "include_metadata": true,
+    "coordinate_system": "pixel",
+    "output_directory": null
+  }
+}
+  
