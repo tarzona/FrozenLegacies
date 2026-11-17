@@ -46,7 +46,7 @@ The repository root also contains a `Dockerfile`, a `LICENSE`, and this `README.
 
 ## Data availability and navigation
 
-- **Historical film archive:** Explore the SPRI–NSF–TUD radar observations through [Radar Film Studio](https://www.radarfilm.studio/). For access to additional A-scope or Z-scope data beyond the Zenodo examples, contact Angelo Tarzona (`dtarzona@gatech.edu`) or Brian Amaro (`bamaro@stanford.edu`).
+- **Historical film archive:** Explore the SPRI–NSF–TUD radar observations through [Radar Film Studio](https://www.radarfilm.studio/). For access to additional A-scope or Z-scope data beyond the Zenodo examples, contact Angelo Tarzona (`tarzona@gatech.edu`).
 - **Historical positioning:** Flight navigation and original-positioning resources can be found in the [Radar Film Studio GitHub repository](https://github.com/radioglaciology/radarfilmstudio/tree/2beee065a5b9bbdda5369d91507a6dca5a48cd5f/antarctica_original_positioning).
 - **Examples for running these pickers:** Download [`Archival_AirborneRadar_Pickers.zip` on Zenodo](https://doi.org/10.5281/zenodo.24295998), then consult the [Frozen Legacies Tools instructions](./Frozen%20Legacies%20Tools/README.md).
 
