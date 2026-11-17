@@ -1,60 +1,65 @@
-# SPRI-NSF-TUD Campaign README file
+<p align="center">
+  <img src="frozenlegacytools_img.png" alt="National Science Foundation, Frozen Legacies, and Polar Geophysical Simulation Lab Echo Explorers" width="850">
+</p>
 
-This repository serves as a hub of scientific journals, processing codes, and REU and Mentees guide for analyzing the historical SPRI-NSF-TUD Campaign in Antarctica. 
+# Frozen Legacies | SPRI–NSF–TUD Antarctic Radar Archive
 
-## Repository Structure
+**Historical Antarctic radio-echo sounding data, processing tools, scientific references, and student research resources.**
 
-### Frozen Legacy Tools
-This folder contains the latest, production-ready processing tools for analyzing SPRI-NSF-TUD radar data:
+This repository supports the recovery and analysis of historical airborne radar observations from the **1974–1975 Scott Polar Research Institute (SPRI)–National Science Foundation (NSF)–Technical University of Denmark (TUD)** campaign. It brings together Python processing workflows, relevant publications, and resources for REU students and mentees.
 
-- **ASTRA** (Amplitude Signal Tracing & Retrieval Application): Interactive GUI tool for picking A-scope features (surface, bed, noise floor, and main bang) from historical radar TIFF images
-- **ARIES** (Automatic Radar Interpretation and Extraction System): Advanced automated system for processing Z-scope radar sounding images (echograms) using computer vision and signal processing
-- **TERRA** (Tracing & Extraction of Radar Reflections for Analysis): Interactive tool for digitizing surface and bed reflections from historical radar TIFF images with CBD labeling and time-domain conversion
-- **URSA** (Unsupervised Retrieval of Signal for A-scopes): Sophisticated automated system for A-scope radar data processing with intelligent echo detection and calibration
+## Start here: current radar pickers
 
-### OLD_Versions
-Contains legacy versions of processing tools for reference and backward compatibility:
-- **A_Scope_Processing**: Earlier version of A-scope analysis tools
-- **Z_Scope_Processing**: Earlier version of Z-scope analysis tools
+### **[Open Frozen Legacies Tools →](./Frozen%20Legacies%20Tools/)**
 
-### Papers
-Scientific literature and documentation related to the SPRI-NSF-TUD Campaign, including 5 key papers covering positioning, processing methods, and data collection techniques. Includes guidance materials for literature review.
+**For the current picker code, installation instructions, sample-data setup, and usage examples, visit the [Frozen Legacies Tools README](./Frozen%20Legacies%20Tools/README.md).**
 
-### REU_and_Mentees
-Resources and guidance for Research Experience for Undergraduates (REU) students and mentees, including project descriptions, tentative schedules, and semester-specific materials.
+This is the **recommended folder** for radar processing. It includes three complementary workflows:
 
-## For REU Students and Mentees
+| Tool | Radar format | Approach | Purpose |
+| --- | --- | --- | --- |
+| **[ASTRA](./Frozen%20Legacies%20Tools/Amplitude%20Signal%20Tracing%20and%20Retrieval%20Application%20%28A.S.T.R.A.%29/ASTRA.py)** — Amplitude Signal Tracing and Retrieval Application | A-scope | Interactive / semi-automatic | Calibrates oscilloscope time and amplitude scales and picks main bang, surface, bed, and noise floor. |
+| **[LYRA](./Frozen%20Legacies%20Tools/Layered-echo%20Yield%20from%20Radiometric%20Archives%20%28L.Y.R.A.%29/lyra.py)** — Layered-echo Yield from Radiometric Archives | A-scope | Automated with user-reviewed calibration | Identifies film frames and CBDs, extracts waveforms, and detects surface and basal echoes. |
+| **[TERRA](./Frozen%20Legacies%20Tools/Tracing%20and%20Extraction%20of%20Radar%20Reflections%20for%20Analysis%20%28T.E.R.R.A.%29/TERRA.py)** — Tracing and Extraction of Radar Reflections for Analysis | Z-scope | Semi-automatic | Uses CBD locations and operator-defined anchor points to trace reflections in continuous radargrams. |
 
-Please go to the **REU_and_Mentees** folder to get started with literature review about the SPRI-NSF-TUD Campaign. There is also a mini-syllabus in the folder for guidance with what to read first. Once familiar with the SPRI-NSF-TUD Campaign, explore the **Frozen Legacy Tools** for the latest processing capabilities, or refer to **OLD_Versions** for legacy tools. For processing examples, consult with Angelo T. for guidance on calibration and processing of this historical dataset. 
+> **Important:** The similarly named `Frozen Legacy Tools` folder (without **“Legacies”**) contains an earlier collection of ASTRA, ARIES, TERRA, and URSA code. It is **legacy material and not the recommended starting point**. That folder is being reviewed for retirement; use **[Frozen Legacies Tools](./Frozen%20Legacies%20Tools/)** for the current ASTRA, LYRA, and TERRA workflows.
 
-## For Visitors
+## Download the example radar data
 
-Please read the 'Data Processing'subsection of this README file to know more about A- and Z-scope calibration and processing.
+The current GitHub picker folder contains the code and LYRA digit templates, **not the example A-scope and Z-scope radar files**.
 
-## Data Availability
+**[Download the sample-data archive from Zenodo](https://doi.org/10.5281/zenodo.24295998)** — DOI: `10.5281/zenodo.24295998`
 
-You can explore the SPRI-NSF-TUD Campaign dataset at https://www.radarfilm.studio/
+On the Zenodo record, download the **entire `Archival_AirborneRadar_Pickers.zip`** and extract it. The archive supplies the sample **`.tiff` radar images** and **`.csv` navigation data** needed to run the A-scope pickers (**ASTRA and LYRA**) and the Z-scope picker (**TERRA**). Follow the [tool-specific setup and run instructions](./Frozen%20Legacies%20Tools/README.md) to point each program to the corresponding extracted files.
 
-If you want to download and analyze this dataset (downloading A- and Z-scopes), please request an invite link to Angelo T. (dtarzona@gatech.edu) or Brian A. (bamaro@stanford.edu).
+These files provide examples for running the pickers; do not confuse them with the complete historical film archive.
 
-LAT/LON/CBD for different flight numbers are located in the GitHub Repository of Radar Film Studio: https://github.com/radioglaciology/radarfilmstudio/tree/2beee065a5b9bbdda5369d91507a6dca5a48cd5f/antarctica_original_positioning
-  - If you need different thematic and flight maps please talk to Angelo T.
+## Other repository resources
 
-## Data Processing
+| Directory | Contents |
+| --- | --- |
+| **[Frozen Legacies Tools](./Frozen%20Legacies%20Tools/)** | Current ASTRA, LYRA, and TERRA Python workflows and their documentation. |
+| **[Papers](./Papers/)** | Scientific references and documents concerning survey positioning, radar methods, and historical data collection. |
+| **[REU_and_Mentees](./REU_and_Mentees/)** | Reading guidance, project resources, and semester-specific material for undergraduate researchers and mentees. |
 
-### Current Tools (Frozen Legacy Tools)
-For the most up-to-date and feature-rich processing capabilities, use the tools in the **Frozen Legacy Tools** folder:
+The repository root also contains a `Dockerfile`, a `LICENSE`, and this `README.md`. For license information specific to the current picker release, see its [LICENSE.txt](./Frozen%20Legacies%20Tools/LICENSE.txt).
 
-- **ASTRA**: Interactive A-scope feature picking with GUI interface and CSV export
-- **ARIES**: Fully automated Z-scope processing with computer vision techniques
-- **TERRA**: Interactive radar reflection digitization with geolocated outputs
-- **URSA**: Advanced automated A-scope processing with intelligent detection algorithms
+## Data availability and navigation
 
-### Legacy Tools (OLD_Versions)
-The **OLD_Versions** folder contains earlier versions of processing tools:
-  - **A_Scope_Processing**: Contains manual picker (MATLAB-based) and automatic picker (Python-based) codes for semi-automatically picking the Transmitter Pulse, Surface Echo, and Bed Echo of each A-scope in a film
-  - **Z_Scope_Processing**: Contains semi-manual and fully-automatic picker (Python-based) code to trace Z-scopes' transmitter pulse, surface and bed echo returns
+- **Historical film archive:** Explore the SPRI–NSF–TUD radar observations through [Radar Film Studio](https://www.radarfilm.studio/). For access to additional A-scope or Z-scope data beyond the Zenodo examples, contact Angelo Tarzona (`dtarzona@gatech.edu`) or Brian Amaro (`bamaro@stanford.edu`).
+- **Historical positioning:** Flight navigation and original-positioning resources can be found in the [Radar Film Studio GitHub repository](https://github.com/radioglaciology/radarfilmstudio/tree/2beee065a5b9bbdda5369d91507a6dca5a48cd5f/antarctica_original_positioning).
+- **Examples for running these pickers:** Download [`Archival_AirborneRadar_Pickers.zip` on Zenodo](https://doi.org/10.5281/zenodo.24295998), then consult the [Frozen Legacies Tools instructions](./Frozen%20Legacies%20Tools/README.md).
 
-### Scientific Background
-To learn about the 5 main scientific papers that discuss positioning, processing methods, and data collection of the SPRI-NSF-TUD Campaign, explore the **Papers** folder. This includes key publications from Schroeder et al. (2019), Millar et al. (1981), Drewry et al. (1982), Bingham and Siegert (2009), and Karlsson et al. (2024). 
+## For REU students and mentees
 
+Begin with **[REU_and_Mentees](./REU_and_Mentees/)** for the reading guides and mini-syllabus. Next, review the literature in **[Papers](./Papers/)**. When ready to work with the historical radar film, use the **[current picker workflows](./Frozen%20Legacies%20Tools/)** and their documented example inputs. For questions about calibration and processing, contact Angelo Tarzona.
+
+## Scientific background
+
+The 1974–1975 SPRI–NSF–TUD campaign recorded Antarctic radar observations on film, including discrete **A-scope** amplitude traces and continuous **Z-scope** radargrams. Reprocessing these historical records enables quantitative analysis and comparison with later measurements, including recovered ice-thickness estimates over the Ross Ice Shelf.
+
+For foundational reading on positioning, survey techniques, and archival data analysis, see the publications collected under **[Papers](./Papers/)**, including the works identified in the previous repository README by Millar et al. (1981), Drewry et al. (1982), Bingham and Siegert (2009), Schroeder et al. (2019), and Karlsson et al. (2024).
+
+---
+
+**Current tool documentation:** [Frozen Legacies Tools / README.md](./Frozen%20Legacies%20Tools/README.md)
